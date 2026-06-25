@@ -4,13 +4,27 @@
     "href": "index.html",
     "title": "Noah Pearl",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Statistics and data science undergrad at UC Santa Barbara, headed toward biostatistics research. I like the theory and I like building things that use it to help real people.\nRight now I’m doing biostatistics research through ISI-BUDS at UC Irvine, working primarily in R for public health. Notes and projects are in the nav above."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I’m a third-year statistics and data science student at UC Santa Barbara, aiming at a meaningful career in biostatistics."
+  },
+  {
+    "objectID": "about.html#what-i-work-on",
+    "href": "about.html#what-i-work-on",
+    "title": "About",
+    "section": "What I work on",
+    "text": "What I work on\nMy coursework has run through the probability and stochastic processes sequence, regression and GLMs, and statistical machine learning. Right now I’m doing some personal study into epidemiology and strengthening my R skills.\nThis summer I’m part of ISI-BUDS, an NIH-funded biostatistics research program at UC Irvine, learning by working on real questions alongside faculty and grad students."
+  },
+  {
+    "objectID": "about.html#elsewhere",
+    "href": "about.html#elsewhere",
+    "title": "About",
+    "section": "Elsewhere",
+    "text": "Elsewhere\nBig fan of Padres baseball, general NBA, working out, and modern jazz :)\nYou can reach me at noahpearl@ucsb.edu, or grab my CV."
   }
 ]
