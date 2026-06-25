@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Noah Pearl"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - icon: github
+        href: https://github.com/n-pearl
+      - icon: linkedin
+        href: https://www.linkedin.com/in/noah-pearl-472489290/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+execute:
+  freeze: auto
