@@ -1,0 +1,17 @@
+{
+  "hash": "ee54b6d9499e28eb60404ba6c8fca69a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Starting a notes section\"\ndescription: \"Why this exists, what'll go here, and a demo.\"\ndate: 2026-06-24\ncategories: [meta]\n---\n\nI'm going to be using this space to write up things as I learn them. \nHopefully that forces me to actually understand a method well enough \nto explain it, and it leaves a trail of what I've been working through.\n\nOne thing I've enjoyed learning at the start of BUDS is the importance of \neffective visualizations. We've been leaning a lot on Claus O. Wilke's \n*Fundamentals of Data Visualization* and, as he outlines, I'm trying my \nbest to balance the art and science of it. Here's a few examples I find cool!\n\nA very basic ggplot method to view MPG by the number of Cylinders:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(mtcars, aes(x = factor(cyl), y = mpg)) +\n  geom_boxplot()\n```\n\n::: {.cell-output-display}\n![](welcome_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\nNow *my* version: \n\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(mtcars, aes(x = mpg, y = factor(cyl), fill = factor(cyl))) +\n  geom_boxplot() +\n  scale_fill_manual(values = unname(palette.colors(palette = \"Okabe-Ito\"))[2:4]) +\n  scale_x_continuous(breaks = seq(10, 35, 5)) +\n  coord_cartesian(xlim = c(10, 35)) +\n  labs(title = \"Number of Cylinders vs MPG\",\n       y = \"Cylinders\",\n       x = \"Fuel Efficiency (MPG)\") +\n  guides(fill = \"none\") +\n  theme_bw(base_size = 14)\n```\n\n::: {.cell-output-display}\n![](welcome_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\nSlightly more attractive!",
+    "supporting": [
+      "welcome_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

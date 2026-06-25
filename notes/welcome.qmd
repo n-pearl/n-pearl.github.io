@@ -1,0 +1,45 @@
+---
+title: "Starting a notes section"
+description: "Why this exists, what'll go here, and a demo."
+date: 2026-06-24
+categories: [meta]
+---
+
+I'm going to be using this space to write up things as I learn them. 
+Hopefully that forces me to actually understand a method well enough 
+to explain it, and it leaves a trail of what I've been working through.
+
+One thing I've enjoyed learning at the start of BUDS is the importance of 
+effective visualizations. We've been leaning a lot on Claus O. Wilke's 
+*Fundamentals of Data Visualization* and, as he outlines, I'm trying my 
+best to balance the art and science of it. Here's a few examples I find cool!
+
+A very basic ggplot method to view MPG by the number of Cylinders:
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+```{r}
+ggplot(mtcars, aes(x = factor(cyl), y = mpg)) +
+  geom_boxplot()
+```
+
+Now *my* version: 
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = factor(cyl), fill = factor(cyl))) +
+  geom_boxplot() +
+  scale_fill_manual(values = unname(palette.colors(palette = "Okabe-Ito"))[2:4]) +
+  scale_x_continuous(breaks = seq(10, 35, 5)) +
+  coord_cartesian(xlim = c(10, 35)) +
+  labs(title = "Number of Cylinders vs MPG",
+       y = "Cylinders",
+       x = "Fuel Efficiency (MPG)") +
+  guides(fill = "none") +
+  theme_bw(base_size = 14)
+```
+
+Slightly more attractive!
