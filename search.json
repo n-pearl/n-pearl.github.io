@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Working notes on things I’m learning, whether that be statistics or just cool new R methods. Expect rough-around-the-edges.\n\n\n\n\n\n\n\n\n\nStarting a notes section\n\n\n\nmeta\n\n\n\nWhy this exists, what’ll go here, and a demo.\n\n\n\n\n\nJun 24, 2026\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Noah Pearl",
@@ -26,5 +33,12 @@
     "title": "About",
     "section": "Elsewhere",
     "text": "Elsewhere\nBig fan of Padres baseball, general NBA, working out, and modern jazz :)\nYou can reach me at noahpearl@ucsb.edu, or grab my CV."
+  },
+  {
+    "objectID": "notes/welcome.html",
+    "href": "notes/welcome.html",
+    "title": "Starting a notes section",
+    "section": "",
+    "text": "I’m going to be using this space to write up things as I learn them. Hopefully that forces me to actually understand a method well enough to explain it, and it leaves a trail of what I’ve been working through.\nOne thing I’ve enjoyed learning at the start of BUDS is the importance of effective visualizations. We’ve been leaning a lot on Claus O. Wilke’s Fundamentals of Data Visualization and, as he outlines, I’m trying my best to balance the art and science of it. Here’s a few examples I find cool!\nA very basic ggplot method to view MPG by the number of Cylinders:\n\nlibrary(tidyverse)\n\n\nggplot(mtcars, aes(x = factor(cyl), y = mpg)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\nNow my version:\n\nggplot(mtcars, aes(x = mpg, y = factor(cyl), fill = factor(cyl))) +\n  geom_boxplot() +\n  scale_fill_manual(values = unname(palette.colors(palette = \"Okabe-Ito\"))[2:4]) +\n  scale_x_continuous(breaks = seq(10, 35, 5)) +\n  coord_cartesian(xlim = c(10, 35)) +\n  labs(title = \"Number of Cylinders vs MPG\",\n       x = \"Cylinders\",\n       y = \"Fuel Efficiency (MPG)\") +\n  guides(fill = \"none\") +\n  theme_bw(base_size = 14)\n\n\n\n\n\n\n\n\nSlightly more attractive!"
   }
 ]
