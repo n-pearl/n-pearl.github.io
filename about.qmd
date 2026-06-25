@@ -2,4 +2,21 @@
 title: "About"
 ---
 
-About this site
+I'm a third-year statistics and data science student at UC Santa Barbara,
+aiming at a meaningful career in biostatistics.
+
+## What I work on
+
+My coursework has run through the probability and stochastic processes
+sequence, regression and GLMs, and statistical machine learning. Right now
+I'm doing some personal study into epidemiology and strengthening my R skills.
+
+This summer I'm part of ISI-BUDS, an NIH-funded biostatistics research
+program at UC Irvine, learning by working on real questions alongside faculty 
+and grad students.
+
+## Elsewhere
+
+Big fan of Padres baseball, general NBA, working out, and modern jazz :)
+
+You can reach me at noahpearl@ucsb.edu, or grab my [CV](cv.pdf).

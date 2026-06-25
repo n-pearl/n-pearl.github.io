@@ -1,7 +1,24 @@
 ---
 title: "Noah Pearl"
+about:
+  template: trestles
+  image: profile.jpg
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/n-pearl
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/noah-pearl-472489290/
+    - icon: envelope
+      text: Email
+      href: mailto:noahpearl@ucsb.edu
 ---
 
-This is a Quarto website.
+Statistics and data science undergrad at UC Santa Barbara, headed toward
+biostatistics research. I like the theory and I like building things that
+use it to help real people.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Right now I'm doing biostatistics research through ISI-BUDS at UC Irvine,
+working primarily in R for public health. Notes and projects are in the nav above.
