@@ -10,8 +10,6 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: notes.qmd
-        text: Notes
       - icon: github
         href: https://github.com/n-pearl
       - icon: linkedin
