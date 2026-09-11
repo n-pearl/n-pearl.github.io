@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Noah Pearl"
+  search: False
   navbar:
     right:
       - href: index.qmd
