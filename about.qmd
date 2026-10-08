@@ -14,7 +14,7 @@ excited to be taking methods of analysis and survival analysis courses.
 This summer I was a part of ISI-BUDS, an NIH-funded biostatistics research
 program at UC Irvine, learning under amazing faculty and PhDs. The focal point 
 was working on a real research problem investigating vector abundance in the
-Coachella Valley. 
+Coachella Valley ([abstract](research.qmd)).
 
 Right now I'm gearing up for grad school apps and strengthening my R skills.
 ISI-BUDS was an incredible experience and validated what I hope to be doing. 

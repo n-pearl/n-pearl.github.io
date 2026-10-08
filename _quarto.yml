@@ -11,6 +11,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: research.qmd
+        text: Research
       - icon: github
         href: https://github.com/n-pearl
       - icon: linkedin

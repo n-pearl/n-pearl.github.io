@@ -1,0 +1,41 @@
+---
+title: "Research"
+---
+
+## Environmental Predictors of *Aedes aegypti* Abundance in the Coachella Valley
+
+*ISI-BUDS, UC Irvine · Summer 2026* \
+Noah Pearl, Leyna Hirko, Lily Yao \
+Mentored by Dr. Volodymyr Minin (Statistics), Dr. Daniel Parker (Public Health),
+and Thanasi Bakis (PhD Candidate)
+
+### Abstract
+
+*Ae. aegypti* mosquitos are an invasive species spreading rapidly across
+California that pose a risk of spreading several infectious diseases, which is
+why accurate forecasting is significant for targeted surveillance. The Coachella
+Valley is a hot, arid basin with urban pockets that contribute to sharp
+environmental contrasts, where environmental predictors are a focal point and
+also why their resolution is a problem to be addressed. The Coachella Valley
+Mosquito and Vector Control District (CVMVCD) provided 2016–2025 BG-Sentinel
+trap counts of female *Ae. aegypti* abundance, which was then joined with
+ERA5-Land (temperature, precipitation), Sentinel-2 (NDVI, MNDWI), and Dynamic
+World land cover data over 14-day windows in a 200m buffer around each trap.
+Modeling strategies include a Negative Binomial generalized additive model and a
+gradient boosted trees model; both were evaluated using a leave-one-year-out
+cross validation on 2018–2025. The latter of the two primarily validates that
+with fewer assumptions the fault lies in the predictors themselves. Both models
+track broad seasonality but under-predict the magnitude of peaks, except 2024 in
+which both over-predict an unusual low year for abundance that was not mirrored
+in other years. Interpretation of the GAM's effect curves points at surface water
+and temperature as key influences on general abundance trends, but further
+refinement for local microclimate would improve our understanding of the
+significance of all of the predictors and subsequently our forecasting.
+Comparison of ERA5-Land with manually-placed sensors reveals an hourly bias
+pattern; the product compresses diurnal swing, but more data on local conditions
+is necessary to correct for this bias wholly. Ultimately we conclude that
+standard gridded environmental products carry real but limited signal at the
+level of single collections. The resolution of these products and their
+inaccurate ability to reflect actual ground-level conditions is the leading
+candidate for error in *Ae. aegypti* abundance, and direct testing of those
+conditions is a path for adjusting it.

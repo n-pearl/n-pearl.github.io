@@ -86,6 +86,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/n-pearl"> <i class="bi bi-github" role="img">
 </i> 
@@ -134,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-i-work-on" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-work-on">What I work on</h2>
 <p>My coursework has run through the probability and stochastic processes sequence, regression and GLMs, and statistical machine learning. This fall I’m excited to be taking methods of analysis and survival analysis courses.</p>
-<p>This summer I was a part of ISI-BUDS, an NIH-funded biostatistics research program at UC Irvine, learning under amazing faculty and PhDs. The focal point was working on a real research problem investigating vector abundance in the Coachella Valley.</p>
+<p>This summer I was a part of ISI-BUDS, an NIH-funded biostatistics research program at UC Irvine, learning under amazing faculty and PhDs. The focal point was working on a real research problem investigating vector abundance in the Coachella Valley (<a href="./research.html">abstract</a>).</p>
 <p>Right now I’m gearing up for grad school apps and strengthening my R skills. ISI-BUDS was an incredible experience and validated what I hope to be doing.</p>
 </section>
 <section id="elsewhere" class="level2">
@@ -219,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/n-pearl\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
