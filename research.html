@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Noah Pearl</title>
+<title>Research – Noah Pearl</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -86,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item compact">
@@ -112,41 +113,50 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="profile.jpg" class="about-image
-  rounded " style="width: 10em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Noah Pearl</h1>
+<h1 class="title">Research</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/n-pearl" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://linkedin.com/in/noah-pearl-472489290/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:noahpearl@ucsb.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Statistics and data science undergrad at UC Santa Barbara, headed toward biostatistics research. I like the theory and I like building things that use it to help real people.</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
+<section id="environmental-predictors-of-aedes-aegypti-abundance-in-the-coachella-valley" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-predictors-of-aedes-aegypti-abundance-in-the-coachella-valley">Environmental Predictors of <em>Aedes aegypti</em> Abundance in the Coachella Valley</h2>
+<p><em>ISI-BUDS, UC Irvine · Summer 2026</em><br>
+Noah Pearl, Leyna Hirko, Lily Yao<br>
+Mentored by Dr.&nbsp;Volodymyr Minin (Statistics), Dr.&nbsp;Daniel Parker (Public Health), and Thanasi Bakis (PhD Candidate)</p>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<p><em>Ae. aegypti</em> mosquitos are an invasive species spreading rapidly across California that pose a risk of spreading several infectious diseases, which is why accurate forecasting is significant for targeted surveillance. The Coachella Valley is a hot, arid basin with urban pockets that contribute to sharp environmental contrasts, where environmental predictors are a focal point and also why their resolution is a problem to be addressed. The Coachella Valley Mosquito and Vector Control District (CVMVCD) provided 2016–2025 BG-Sentinel trap counts of female <em>Ae. aegypti</em> abundance, which was then joined with ERA5-Land (temperature, precipitation), Sentinel-2 (NDVI, MNDWI), and Dynamic World land cover data over 14-day windows in a 200m buffer around each trap. Modeling strategies include a Negative Binomial generalized additive model and a gradient boosted trees model; both were evaluated using a leave-one-year-out cross validation on 2018–2025. The latter of the two primarily validates that with fewer assumptions the fault lies in the predictors themselves. Both models track broad seasonality but under-predict the magnitude of peaks, except 2024 in which both over-predict an unusual low year for abundance that was not mirrored in other years. Interpretation of the GAM’s effect curves points at surface water and temperature as key influences on general abundance trends, but further refinement for local microclimate would improve our understanding of the significance of all of the predictors and subsequently our forecasting. Comparison of ERA5-Land with manually-placed sensors reveals an hourly bias pattern; the product compresses diurnal swing, but more data on local conditions is necessary to correct for this bias wholly. Ultimately we conclude that standard gridded environmental products carry real but limited signal at the level of single collections. The resolution of these products and their inaccurate ability to reflect actual ground-level conditions is the leading candidate for error in <em>Ae. aegypti</em> abundance, and direct testing of those conditions is a path for adjusting it.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

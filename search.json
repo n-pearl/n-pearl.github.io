@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Noah Pearl",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Statistics and data science undergrad at UC Santa Barbara, headed toward biostatistics research. I like the theory and I like building things that use it to help real people."
+    "text": "ISI-BUDS, UC Irvine · Summer 2026\nNoah Pearl, Leyna Hirko, Lily Yao\nMentored by Dr. Volodymyr Minin (Statistics), Dr. Daniel Parker (Public Health), and Thanasi Bakis (PhD Candidate)\n\n\nAe. aegypti mosquitos are an invasive species spreading rapidly across California that pose a risk of spreading several infectious diseases, which is why accurate forecasting is significant for targeted surveillance. The Coachella Valley is a hot, arid basin with urban pockets that contribute to sharp environmental contrasts, where environmental predictors are a focal point and also why their resolution is a problem to be addressed. The Coachella Valley Mosquito and Vector Control District (CVMVCD) provided 2016–2025 BG-Sentinel trap counts of female Ae. aegypti abundance, which was then joined with ERA5-Land (temperature, precipitation), Sentinel-2 (NDVI, MNDWI), and Dynamic World land cover data over 14-day windows in a 200m buffer around each trap. Modeling strategies include a Negative Binomial generalized additive model and a gradient boosted trees model; both were evaluated using a leave-one-year-out cross validation on 2018–2025. The latter of the two primarily validates that with fewer assumptions the fault lies in the predictors themselves. Both models track broad seasonality but under-predict the magnitude of peaks, except 2024 in which both over-predict an unusual low year for abundance that was not mirrored in other years. Interpretation of the GAM’s effect curves points at surface water and temperature as key influences on general abundance trends, but further refinement for local microclimate would improve our understanding of the significance of all of the predictors and subsequently our forecasting. Comparison of ERA5-Land with manually-placed sensors reveals an hourly bias pattern; the product compresses diurnal swing, but more data on local conditions is necessary to correct for this bias wholly. Ultimately we conclude that standard gridded environmental products carry real but limited signal at the level of single collections. The resolution of these products and their inaccurate ability to reflect actual ground-level conditions is the leading candidate for error in Ae. aegypti abundance, and direct testing of those conditions is a path for adjusting it."
+  },
+  {
+    "objectID": "research.html#environmental-predictors-of-aedes-aegypti-abundance-in-the-coachella-valley",
+    "href": "research.html#environmental-predictors-of-aedes-aegypti-abundance-in-the-coachella-valley",
+    "title": "Research",
+    "section": "",
+    "text": "ISI-BUDS, UC Irvine · Summer 2026\nNoah Pearl, Leyna Hirko, Lily Yao\nMentored by Dr. Volodymyr Minin (Statistics), Dr. Daniel Parker (Public Health), and Thanasi Bakis (PhD Candidate)\n\n\nAe. aegypti mosquitos are an invasive species spreading rapidly across California that pose a risk of spreading several infectious diseases, which is why accurate forecasting is significant for targeted surveillance. The Coachella Valley is a hot, arid basin with urban pockets that contribute to sharp environmental contrasts, where environmental predictors are a focal point and also why their resolution is a problem to be addressed. The Coachella Valley Mosquito and Vector Control District (CVMVCD) provided 2016–2025 BG-Sentinel trap counts of female Ae. aegypti abundance, which was then joined with ERA5-Land (temperature, precipitation), Sentinel-2 (NDVI, MNDWI), and Dynamic World land cover data over 14-day windows in a 200m buffer around each trap. Modeling strategies include a Negative Binomial generalized additive model and a gradient boosted trees model; both were evaluated using a leave-one-year-out cross validation on 2018–2025. The latter of the two primarily validates that with fewer assumptions the fault lies in the predictors themselves. Both models track broad seasonality but under-predict the magnitude of peaks, except 2024 in which both over-predict an unusual low year for abundance that was not mirrored in other years. Interpretation of the GAM’s effect curves points at surface water and temperature as key influences on general abundance trends, but further refinement for local microclimate would improve our understanding of the significance of all of the predictors and subsequently our forecasting. Comparison of ERA5-Land with manually-placed sensors reveals an hourly bias pattern; the product compresses diurnal swing, but more data on local conditions is necessary to correct for this bias wholly. Ultimately we conclude that standard gridded environmental products carry real but limited signal at the level of single collections. The resolution of these products and their inaccurate ability to reflect actual ground-level conditions is the leading candidate for error in Ae. aegypti abundance, and direct testing of those conditions is a path for adjusting it."
   },
   {
     "objectID": "about.html",
@@ -18,7 +25,7 @@
     "href": "about.html#what-i-work-on",
     "title": "About",
     "section": "What I work on",
-    "text": "What I work on\nMy coursework has run through the probability and stochastic processes sequence, regression and GLMs, and statistical machine learning. This fall I’m excited to be taking methods of analysis and survival analysis courses.\nThis summer I was a part of ISI-BUDS, an NIH-funded biostatistics research program at UC Irvine, learning under amazing faculty and PhDs. The focal point was working on a real research problem investigating vector abundance in the Coachella Valley.\nRight now I’m gearing up for grad school apps and strengthening my R skills. ISI-BUDS was an incredible experience and validated what I hope to be doing."
+    "text": "What I work on\nMy coursework has run through the probability and stochastic processes sequence, regression and GLMs, and statistical machine learning. This fall I’m excited to be taking methods of analysis and survival analysis courses.\nThis summer I was a part of ISI-BUDS, an NIH-funded biostatistics research program at UC Irvine, learning under amazing faculty and PhDs. The focal point was working on a real research problem investigating vector abundance in the Coachella Valley (abstract).\nRight now I’m gearing up for grad school apps and strengthening my R skills. ISI-BUDS was an incredible experience and validated what I hope to be doing."
   },
   {
     "objectID": "about.html#elsewhere",
@@ -26,5 +33,12 @@
     "title": "About",
     "section": "Elsewhere",
     "text": "Elsewhere\nBig fan of Padres baseball, the NBA, working out, and modern jazz :)\nYou can reach me at noahpearl@ucsb.edu, or grab my CV."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Noah Pearl",
+    "section": "",
+    "text": "Statistics and data science undergrad at UC Santa Barbara, headed toward biostatistics research. I like the theory and I like building things that use it to help real people."
   }
 ]

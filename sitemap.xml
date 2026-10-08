@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://n-pearl.github.io/index.html</loc>
-    <lastmod>2026-09-11T19:53:55.507Z</lastmod>
+    <loc>https://n-pearl.github.io/research.html</loc>
+    <lastmod>2026-10-08T16:33:48.804Z</lastmod>
   </url>
   <url>
     <loc>https://n-pearl.github.io/about.html</loc>
-    <lastmod>2026-09-11T19:44:52.635Z</lastmod>
+    <lastmod>2026-10-08T16:28:05.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://n-pearl.github.io/index.html</loc>
+    <lastmod>2026-09-11T19:53:55.507Z</lastmod>
   </url>
 </urlset>
